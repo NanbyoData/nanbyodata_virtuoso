@@ -1,2 +1,5 @@
 .env
 *~
+backup/*
+database/*
+!database/virtuoso.ini
