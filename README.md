@@ -37,13 +37,6 @@ Host group id for the docker container. You can find your group id by `id -g`.
 (default: Node)
 Please specify the password for the Virtuoso administrator user "dba".
 
-#### `PWD`
-(default: Current working directory)
-Virtuoso data is stored in `${PWD}/database`.
-By default, `${PWD}` refers to the directory where `docker compose` is executed, which is usually the directory containing `docker-compose.yml`.
-
-If you want to store the data in a different location, change `${PWD}` to the path of your desired host directory.
-
 #### `ENDPOINT_PORT`
 (default: 8890)
 Specify the host port number that exposes the Virtuoso SPARQL endpoint.
