@@ -2,8 +2,9 @@
 
 ## Overview
 
-* This repository contains tools for updating the **MySQL database** and **NANDO ontology** used in NanbyoData.
-* For the NanbyoData Virtuoso update tool, please refer to [this link](https://github.com/NanbyoData/nanbyodata_virtuoso_updater).
+* This repository manages the configuration settings for NanbyoData Virtuoso.
+* For environment-specific values, please use a .env file or clone this repository to update your local settings as needed.
+* ⚠️ **Note: Please handle sensitive information with extreme care.**
 
 ## Prerequisites
 
