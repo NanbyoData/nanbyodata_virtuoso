@@ -33,7 +33,7 @@ Host user id for the docker container. You can find your user id by `id -u`.
 
 Host group id for the docker container. You can find your group id by `id -g`.
 
-#### `DBA_PASSWORD_1`
+#### `DBA_PASSWORD`
 (default: Node)
 Please specify the password for the Virtuoso administrator user "dba".
 
