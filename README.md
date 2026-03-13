@@ -64,7 +64,6 @@ docker compose build mysql
 Operational workflows are detailed in the following documentation:  
 
 * [MySQL Update Procedure](https://docs.google.com/spreadsheets/d/12JjDHkd4k9oI5Xme_Isyg9nqUsHU1PZvmvz5DQPKNZc/edit?gid=1150718828#gid=1150718828)
-* [NANDO Ontology Update Procedure](https://docs.google.com/spreadsheets/d/12JjDHkd4k9oI5Xme_Isyg9nqUsHU1PZvmvz5DQPKNZc/edit?gid=1914005581#gid=1914005581)  
 
 [!IMPORTANT]  
 If you are unable to access the documentation links above, please contact the DBCLS team.  
