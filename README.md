@@ -34,19 +34,18 @@ Host group id for the docker container. You can find your group id by `id -g`.
 
 #### `DBA_PASSWORD_1`
 (default: Node)
-Virtuoso の管理ユーザー dba のパスワードを指定します。
+Please specify the password for the Virtuoso administrator user "dba".
 
 #### `PWD`
 (default: Current working directory)
-${PWD} は docker compose を実行したディレクトリのパスを表します。
-通常は docker-compose.yml が配置されているディレクトリになります。
+Virtuoso data is stored in `${PWD}/database`.
+By default, `${PWD}` refers to the directory where `docker compose` is executed, which is usually the directory containing `docker-compose.yml`.
 
-Virtuoso のデータは ${PWD}/database に保存されます。
-別の場所に保存したい場合は、${PWD} を 任意のホストディレクトリのパスに変更してください。
+If you want to store the data in a different location, change `${PWD}` to the path of your desired host directory.
 
 #### `ENDPOINT_PORT`
 (default: 8890)
-Virtuoso の SPARQL エンドポイントを公開するホスト側ポート番号を指定します。
+Specify the host port number that exposes the Virtuoso SPARQL endpoint.
 
 
 
