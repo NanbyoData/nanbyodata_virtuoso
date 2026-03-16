@@ -1,7 +1,7 @@
 services:
   # Virtuoso
-  virtuoso-dev:
-    container_name: nanbyodata-virtuoso-dev
+  virtuoso:
+    container_name: nanbyodata-virtuoso-${ENVIRONMENT}
     image: openlink/virtuoso-opensource-7:7.2.12
     environment:
       VIRT_Parameters_DirsAllowed: /rdf_data
