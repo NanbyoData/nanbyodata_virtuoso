@@ -20,4 +20,4 @@ services:
       - ${PWD}/./database:/opt/virtuoso-opensource/database
     ports:
       - "${ENDPOINT_PORT:-8890}:8890"
-    restart: on-failure
+    restart: unless-stopped
